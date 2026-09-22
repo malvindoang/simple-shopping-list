@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Shopping List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Simple Shopping List</h1>
+
+  <div class="input-area">
+    <input type="text" id="itemInput" placeholder="Masukkan nama item belanja">
+    <button id="addBtn">Add Item</button>
+  </div>
+
+  <table id="itemTable">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama Item</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody id="itemTableBody">
+    </tbody>
+  </table>
+
+  <p id="emptyMessage">Belum ada item. Silakan tambahkan item belanja.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
